@@ -7,6 +7,12 @@ import { Widget } from "../../../../components/widget";
 import { DefaultLayout } from "../../../../layouts/default";
 import { Root } from "../../../../root";
 
+export const pageSettings = {
+    failurePolicy: {
+      action: 'error'
+    }
+};
+
 const DefaultPage: React.FC<KindePageEvent> = ({ context, request }) => {
   return (
     <Root context={context} request={request}>
