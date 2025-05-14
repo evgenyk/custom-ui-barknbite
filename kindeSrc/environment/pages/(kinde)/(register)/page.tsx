@@ -11,6 +11,7 @@ const DefaultPage: React.FC<KindePageEvent> = ({ context, request }) => {
   return (
     <Root context={context} request={request}>
       <DefaultLayout isRegisterPage={true}>
+        <h1>Hello</h1>
         <Widget heading={context.widget.content.heading} />
       </DefaultLayout>
     </Root>
