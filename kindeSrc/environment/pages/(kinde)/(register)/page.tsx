@@ -9,7 +9,7 @@ import { Root } from "../../../../root";
 
 export const pageSettings = {
     failurePolicy: {
-      action: 'error'
+      action: 'fail'
     }
 };
 
