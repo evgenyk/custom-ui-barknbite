@@ -26,7 +26,7 @@ const DefaultPage: React.FC<KindePageEvent> = ({ context, request }) => {
 
 // Page Component
 export default async function Page(event: KindePageEvent): Promise<string> {
-  throw new Error("broken on purpose to test fallback!");
+  //throw new Error("broken on purpose to test fallback!");
   const page = await DefaultPage(event);
   return renderToString(page);
 }
